@@ -36,8 +36,7 @@ h6 {
 
 .profile .contact {
     margin-top: 0.2rem;
-    display: flex;
-    justify-content: space-between;
+
 }
 
 .profile .contact i {
