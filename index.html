@@ -24,7 +24,7 @@
             <div class="card-body">
 
                 <!-- profile -->
-                <div class="row">
+                <div class="row mt-3">
                     <div class="col-md-12">
                         <div class="profile">
                             <h1 class="name">ivin stephen</h1>
@@ -48,9 +48,162 @@
                 </div>
                 <!-- end profile  -->
 
-                <!-- achievements -->
+                <!-- sections -->
                 <div class="row">
+                    <!-- achievements -->
+                    <div class="col-md-7">
+                        <h3 class="heading">achievements</h3>
 
+                        <div class="para">
+                            <h6>Shivyog Play App</h6>
+                            <p>
+                                The app has about 15,000 daily active users. I've worked on the app from the initial
+                                stages to the current version solving many issues along the way. The app was
+                                reconfigured for working to scale resolving bottlenecks. Streamlining Monetization
+                                efforts like subscriptions had a great impact on the app's revenue.
+                            </p>
+                        </div>
+
+                        <div class="para">
+                            <h6>Chat System using Redis cache</h6>
+                            <p>
+                                Implemented a chat system using socket.io that is currently running in 2 production
+                                apps. chat with features such as one-2-one, group. Can handle around 200+ users at a
+                                time on a single ec2 instance. We used Redis as the hot cache, with a custom
+                                write-behind implementation that would periodically transfer data back to the persistent
+                                storage, Postgres in this case.
+                            </p>
+                        </div>
+
+                        <div class="para">
+                            <h6>Firebase Auth library for Django</h6>
+                            <p>
+                                Made a library for Django which leveraged firebase auth as its backend for login and
+                                sign-up, which eliminated the need for integrating different providers (Google login,
+                                Facebook login) in the backend and decreasing development time. The lib would take the
+                                token passed from the frontend and make a firebase admin request to firebase which would
+                                confirm the validity of the token after the valid is confirmed the lib would then check
+                                to see if a local user exists in the database, create on if an entry doesn’t exist. The
+                                library is currently used by multiple apps across various Industries.
+                            </p>
+                        </div>
+
+                        <div class="para">
+                            <h6>Amblegene</h6>
+                            <p>
+                                A clone of Instagram with some additional features such as e-invites, event management,
+                                blogging. Its features include Instagram features like stories, feeds, explores, lives,
+                                chats.
+                            </p>
+                        </div>
+
+                        <div class="para">
+                            <h6>Braille tutor</h6>
+                            <p>
+                                A clone of Instagram with some additional features such as e-invites, event management,
+                                blogging. Its features include Instagram features like stories, feeds, explores, lives,
+                                chats.
+                            </p>
+                        </div>
+
+                    </div>
+                    <!-- end achievements -->
+
+                    <!-- experience -->
+                    <div class="col-md-5">
+                        <h3 class="heading">experience</h3>
+
+                        <!-- work -->
+                        <div class="work">
+                            <h5>Python Developer</h5>
+                            <span>Zartek Technologies Pvt. Ltd.</span> <br>
+                            <div class="small">
+                                <span>
+                                    <i class="fa fa-calendar"></i>
+                                    2019 - Ongoing
+                                </span>
+                                <span>
+                                    <i class="fa fa-map-marker"></i>
+                                    2019 - Ongoing
+                                </span>
+                            </div>
+
+                            <ul>
+                                <li>
+                                    Managed and mentored over 5+ people, guided
+                                    them through the process of creating a backend
+                                    for app and website with Django
+                                </li>
+                                <li>
+                                    Took initiative to create a more uniform
+                                    workflow for developers through out the
+                                    company, hence reducing development time
+                                </li>
+                                <li>
+                                    Responsible for management tasks such as
+                                    hiring new backend developers, new project
+                                    estimation and a key part initial phase
+                                </li>
+                                <li>
+                                    Developed 4+ apps live on play store, one of
+                                    which is currently ranked as #7 in top grossing
+                                    lifestyle apps in play store
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- work -->
+                        <div class="work">
+                            <h5>Freelance Developer</h5>
+                            <span>Self Employed</span> <br>
+                            <div class="small">
+                                <span>
+                                    <i class="fa fa-calendar"></i>
+                                    2017 - 2019
+                                </span>
+                            </div>
+
+                            <ul>
+                                <li>
+                                    Delivered over 20+ portfolio websites
+                                </li>
+                                <li>
+                                    Create a clone of Trello for a client who needed
+                                    a private offline version of it
+                                </li>
+                                <li>
+                                    Guided 10+ B.Tech students in making their final
+                                    year project, out of which one was selected for
+                                    All India hack-a-thon 2017
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- work -->
+                        <div class="work">
+                            <h5>Service Engineer</h5>
+                            <span>AVL Technologies</span> <br>
+                            <div class="small">
+                                <span>
+                                    <i class="fa fa-calendar"></i>
+                                    2017 - 2017
+                                </span>
+                                <span>
+                                    <i class="fa fa-map-marker"></i>
+                                    Kochi, kerala
+                                </span>
+                            </div>
+
+                            <ul>
+                                <li>
+                                    6 Moths Experience in servicing audio and video
+                                    equipments
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <!-- end experience -->
 
                 </div>
 

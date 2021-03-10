@@ -11,6 +11,10 @@ h6 {
     margin: 0;
 }
 
+.row {
+    margin-top: 1.5rem;
+}
+
 /* ======================================================= */
 /* =====================  PROFILE ======================== */
 /* ======================================================= */
@@ -50,3 +54,53 @@ h6 {
 /* ======================================================= */
 /* ===================== headings ======================== */
 /* ======================================================= */
+
+h3.heading {
+    font-size: x-large;
+    font-weight: 800;
+    color: black;
+    text-transform: uppercase;
+    border-bottom: 0.17rem solid black;
+    margin-bottom: 0.9rem;
+}
+
+.para h6 {
+    font-weight: 700;
+    color: black;
+}
+
+.para p {
+    padding-top: 0.3rem;
+    font-size: small;
+    line-height: 1.2;
+}
+
+.work h5 {
+    font-weight: 700;
+    color: black;
+}
+
+.work span {
+    font-weight: 800;
+    color: limegreen;
+}
+
+
+.work .small i {
+    padding-right: 0.2rem;
+    color: black;
+}
+
+.work .small span {
+    font-weight: normal;
+    color: var(--grey-dark);
+    padding-right: 0.7rem;
+}
+
+.work ul>li {
+    font-weight: normal;
+    font-size: small;
+    line-height: 1.2;
+    color: var(--grey-dark);
+    padding-right: 0.7rem;
+}
