@@ -1,0 +1,52 @@
+/* ======================================================= */
+/* =====================  GENERAL ======================== */
+/* ======================================================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+/* ======================================================= */
+/* =====================  PROFILE ======================== */
+/* ======================================================= */
+
+.profile .name {
+    font-size: 2.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: black;
+
+}
+
+.profile .job-title {
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: limegreen;
+}
+
+.profile .contact {
+    margin-top: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile .contact i {
+    color: limegreen;
+    font-weight: 600;
+}
+
+.profile .contact :is(.phone, .email, .address) {
+    font-size: small;
+    font-weight: 700;
+    color: var(--grey-dark);
+}
+
+/* ======================================================= */
+/* ===================== headings ======================== */
+/* ======================================================= */
