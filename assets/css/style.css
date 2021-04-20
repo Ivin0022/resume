@@ -127,3 +127,45 @@ h3.heading {
     padding: 0.1rem 0.3rem;
 
 }
+
+/* skills */
+
+.skill .progress {
+    height: 6px;
+    background-color: grey;
+}
+
+.skill .progress-bar {
+    height: 6px;
+    background-color: limegreen;
+    margin-bottom: 5em;
+}
+
+.skill span {
+    font-size: large;
+    color: black;
+    font-weight: 700;
+    line-height: 2.3rem;
+    text-transform: capitalize;
+}
+
+
+.skill .progress-dot-1 {
+    width: 20%;
+}
+
+.skill .progress-dot-2 {
+    width: 40%;
+}
+
+.skill .progress-dot-3 {
+    width: 60%;
+}
+
+.skill .progress-dot-4 {
+    width: 80%;
+}
+
+.skill .progress-dot-5 {
+    width: 100%;
+}
