@@ -1,6 +1,9 @@
 /* ======================================================= */
 /* =====================  GENERAL ======================== */
 /* ======================================================= */
+:root {
+    --primary: red;
+}
 
 h1,
 h2,
@@ -31,7 +34,7 @@ h6 {
     font-size: 1.3rem;
     font-weight: 800;
     text-transform: capitalize;
-    color: limegreen;
+    color: var(--primary);
 }
 
 .profile .contact {
@@ -40,7 +43,7 @@ h6 {
 }
 
 .profile .contact i {
-    color: limegreen;
+    color: var(--primary);
     font-weight: 600;
 }
 
@@ -85,7 +88,7 @@ h3.heading {
 
 .work span {
     font-weight: 800;
-    color: limegreen;
+    color: var(--primary);
 }
 
 
@@ -137,7 +140,7 @@ h3.heading {
 
 .skill .progress-bar {
     height: 6px;
-    background-color: limegreen;
+    background-color: var(--primary);
     margin-bottom: 5em;
 }
 
