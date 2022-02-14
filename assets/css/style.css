@@ -173,6 +173,7 @@ h3.heading {
     width: 100%;
 }
 
+/* hack so that it works with print preview  */
 .progress {
     position: relative;
 }
@@ -194,4 +195,13 @@ h3.heading {
     left: 0;
     z-index: 1;
     border-bottom: 2rem solid var(--primary);
+}
+
+
+/* hack so that print preview dosen't break the view */
+
+@media print {
+    .print-preview-hack {
+        max-width: 57%;
+    }
 }
